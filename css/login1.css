@@ -202,7 +202,7 @@ ul.notice li {
 }
 
 .vertical-form input:hover[type='reset'] {
-	background-color: #31B3CB;
+	background-color: #A0A0A0;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
