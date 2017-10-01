@@ -1,5 +1,4 @@
-<!-- XXXX -->
-<?php
+﻿<?php
 $mac = $_POST['mac'];
 $ip = $_POST['ip'];
 $username = $_POST['username'];
@@ -39,24 +38,19 @@ $macesc = $_POST['mac-esc'];
 	
 	<form class="vertical-form" name="sendin2"
 		action="" method="post">
-
-
+	<center><div id="div-register">
+			<h5>
+				<font color="#000000">ADS Wi-Fi Hotspot Register : ลงทะเบียนใช้งานระบบ</font>
+			</h5></center>
 <br>
-		<div id="div-register">
-			<h3>
-				<font color="#ffffff">ADS Wi-Fi Hotspot Register</font>
-			</h3>
-			<h3>
-				<font color="#ffffff">ลงทะเบียนใช้งานระบบ</font>
-			</h3>
-
 
 			<input name="txtCid" id="txtCid" type="text"
 				placeholder="ID Card No./เลขบัตรประชาชน" size="16" /> <input
 				name="txtPhone" id="txtPhone" type="text"
 				placeholder="Mobile No./หมายเลขโทรศัพท์" size="10" /> <input
 				name="submit" type="button" value="Submit" onClick="doRegsiter()" />
-		</div>
+				<input
+				name="submit" type="reset" value="Clear" />
 		<div id="div-vedio">
 			<h3><font color="#ffffff">ADS Wi-Fi Hotspot</font></h3>
 			<video id="my-video" width="100%" controls="false" webkit-playsinline
@@ -65,7 +59,7 @@ $macesc = $_POST['mac-esc'];
 			<input name="submit" type="button" value="Play" onclick="play()" />
 			<div class='footer'>
 				<p>Pls watch VDO for
-					internetaccess/กรุณาดูวิดีโอเพื่อเข้าใช้งานอินเตอร์เน็ต</p>
+					internet access/กรุณาดูวิดีโอเพื่อเข้าใช้งานอินเตอร์เน็ต</p>
 				<p></p>
 			</div>
 		</div>
@@ -195,7 +189,6 @@ function loadVedio(){
 			
 		},
 		error : function(xhr, ajaxOptions, thrownError) {
-			
 		}
 	});
 }
@@ -222,7 +215,10 @@ document.sendin.password.value = hexMD5('<?php echo $chapid; ?>' +'peera' + '<?p
 document.sendin.submit();
 return false;
 }
-
+function doClear() {
+     $("#txtCid").val('');
+    $("#txtPhone").val('');
+}
 </script>
 
 </body>

@@ -133,7 +133,7 @@ ul.notice li {
 }
 
 .vertical-form input[type='text'], .vertical-form input[type='password'],
-	.vertical-form input[type='number'] {
+	.vertical-form input[type='number'], .vertical-form input[type='reset'] {
 	border: 1px #ffffff solid;
 	color: #ffffff;
 	background: rgba(68, 190, 212, 0.39);
@@ -142,7 +142,7 @@ ul.notice li {
 }
 
 .vertical-form input[type='text'], .vertical-form input[type='password'],
-	.vertical-form input[type='button'], .vertical-form input[type='number']
+	.vertical-form input[type='button'], .vertical-form input[type='number'], .vertical-form input[type='reset']
 	{
 	display: block;
 	margin: 0 auto 18px auto;
@@ -181,7 +181,33 @@ ul.notice li {
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease
 }
+.vertical-form input[type='reset'] {
+	-webkit-appearance: none;
+	color: #fff;
+	background: #A0A0A0;
+	background-position: center;
+	border: solid 0px #389aaf;
+	border-bottom: solid 3px #389aaf;
+	height: 50px;
+	width: 300px;
+	font-size: 15px;
+	font-weight: 400;
+	outline: 0;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: solid 0px #389aaf;
+}
 
+.vertical-form input:hover[type='reset'] {
+	background-color: #31B3CB;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease
+}
 .vertical-form .footer {
 	text-align: center
 }
