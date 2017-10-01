@@ -28,38 +28,38 @@ $macesc = $_POST['mac-esc'];
 <body class='login'>
 
 	<div class="clouds"></div>
-		<form name="sendin" action="<?php echo $linkloginonly; ?>"
+	<form name="sendin" action="<?php echo $linkloginonly; ?>"
 		method="post">
 		<input type="hidden" name="username" /> <input type="hidden"
 			name="password" /> <input type="hidden" name="dst"
 			value="<?php echo $linkorig; ?>" /> <input type="hidden" name="popup"
 			value="true" />
 	</form>
-	
-	<form class="vertical-form" name="sendin2"
-		action="" method="post">
-	<center><div id="div-register">
-			<h5>
-				<font color="#000000">ADS Wi-Fi Hotspot Register : ลงทะเบียนใช้งานระบบ</font>
-			</h5></center>
-<br>
 
-			<input name="txtCid" id="txtCid" type="text"
+	<form class="vertical-form" name="sendin2" action="" method="post">
+		<div id="div-register">
+			<h5>
+				<font color="#000000" style="text-align:center">ADS Wi-Fi Hotspot Register :
+					ลงทะเบียนใช้งานระบบ</font>
+			</h5>
+			<br> <input name="txtCid" id="txtCid" type="text"
 				placeholder="ID Card No./เลขบัตรประชาชน" size="16" /> <input
 				name="txtPhone" id="txtPhone" type="text"
 				placeholder="Mobile No./หมายเลขโทรศัพท์" size="10" /> <input
 				name="submit" type="button" value="Submit" onClick="doRegsiter()" />
-				<input
-				name="submit" type="reset" value="Clear" />
+			<input name="submit" type="reset" value="Clear" />
+		</div>
 		<div id="div-vedio">
-			<h3><font color="#ffffff">ADS Wi-Fi Hotspot</font></h3>
+			<h3>
+				<font color="#ffffff">ADS Wi-Fi Hotspot</font>
+			</h3>
 			<video id="my-video" width="100%" controls="false" webkit-playsinline
 				controls controlsList="nodownload">
 			</video>
 			<input name="submit" type="button" value="Play" onclick="play()" />
 			<div class='footer'>
-				<p>Pls watch VDO for
-					internet access/กรุณาดูวิดีโอเพื่อเข้าใช้งานอินเตอร์เน็ต</p>
+				<p>Pls watch VDO for internet
+					access/กรุณาดูวิดีโอเพื่อเข้าใช้งานอินเตอร์เน็ต</p>
 				<p></p>
 			</div>
 		</div>
