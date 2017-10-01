@@ -1,3 +1,4 @@
+<!-- XXXX -->
 <?php
 $mac = $_POST['mac'];
 $ip = $_POST['ip'];
