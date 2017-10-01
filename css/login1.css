@@ -1,0 +1,211 @@
+body {
+	background: url(/wifi_hm/images/bg1.gif) repeat-x;
+	background-size: auto;
+	background-color: #ffffff;
+	min-width: 300px;
+	overflow: hidden;
+	-webkit-animation: mymove 600s infinite;
+	animation: mymove 600s infinite;
+}
+
+.clouds {
+	margin: 0;
+	padding: 0;
+	height: 450px;
+	width: 100%;
+	background-size: auto;
+	background-repeat: repeat-x;
+	top: -0px;
+	-webkit-animation: mymove2 250s infinite;
+	animation: mymove2 250s infinite;
+}
+
+@
+keyframes mymove { 0% {
+	background-position: -2300px top;
+}
+
+100%
+{
+background-position
+
+
+:
+
+ 
+
+5000
+px
+
+ 
+
+top
+
+
+;
+}
+}
+@
+keyframes mymove2 { 0% {
+	background-position: -2300px top;
+}
+
+100%
+{
+background-position
+
+
+:
+
+ 
+
+5000
+px
+
+ 
+
+top
+
+
+;
+}
+}
+.vertical-form {
+	Position: relative;
+	top: -450px;
+}
+
+.login {
+	font-family: Oswald, sans-serif;;
+	padding: 90px 0 0 0
+}
+
+.login .logo {
+	display: block;
+	border-radius: 0px;
+	position: absolute;
+	top: -5px;
+	right: 0px;
+	/*margin: 0 auto 0px*/
+}
+
+.login a, .login a:visited {
+	text-decoration: underline;
+	color: inherit
+}
+
+ul.notice {
+	margin: 30px auto;
+	width: 300px;
+	text-align: center;
+	list-style-position: inside;
+	font-size: 15px;
+	padding: 20px 30px;
+	border-radius: 3px
+}
+
+ul.notice.errors {
+	background-color: #fff4f4;
+	border: 1px solid #f50909;
+	color: #f50909
+}
+
+ul.notice.success {
+	background-color: #d7eacd;
+	border: 1px solid #6fae4f;
+	color: #6fae4f
+}
+
+ul.notice li {
+	padding: 5px 0
+}
+
+.vertical-form {
+	margin: 0 auto
+}
+
+.vertical-form legend {
+	width: 100%;
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	margin: 0 0 30px 0
+}
+
+.vertical-form input[type='text'], .vertical-form input[type='password'],
+	.vertical-form input[type='number'] {
+	border: 1px #ffffff solid;
+	color: #ffffff;
+	background: rgba(68, 190, 212, 0.39);
+	height: 50px;
+	font-size: 18px
+}
+
+.vertical-form input[type='text'], .vertical-form input[type='password'],
+	.vertical-form input[type='button'], .vertical-form input[type='number']
+	{
+	display: block;
+	margin: 0 auto 18px auto;
+	width: 300px;
+	text-align: center;
+	border-radius: 4px;
+	color: #FFFFFF;
+	outline: none;
+	font-family: Oswald, sans-serif;
+}
+
+.vertical-form input[type='button'] {
+	-webkit-appearance: none;
+	color: #fff;
+	background: #44C2D8;
+	background-position: center;
+	border: solid 0px #389aaf;
+	border-bottom: solid 3px #389aaf;
+	height: 50px;
+	width: 300px;
+	font-size: 15px;
+	font-weight: 400;
+	outline: 0;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: solid 0px #389aaf;
+}
+
+.vertical-form input:hover[type='button'] {
+	background-color: #31B3CB;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease
+}
+
+.vertical-form .footer {
+	text-align: center
+}
+
+.vertical-form .footer p:first-child {
+	color: #222
+}
+
+.vertical-form .footer a:first-child {
+	border-bottom: solid 2px #ccc;
+	text-decoration: none
+}
+
+.vertical-form .footer p:nth-child(2) a {
+	border-bottom: solid 1px #000
+}
+
+@media ( max-width :768px) {
+	.login {
+		padding: 10px 0 0 0
+	}
+}
+
+video {
+	width: 100%;
+	height: auto;
+}
